@@ -10,6 +10,7 @@ export class BlankLayoutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('BlankLayoutComponent init');
   }
 
 }

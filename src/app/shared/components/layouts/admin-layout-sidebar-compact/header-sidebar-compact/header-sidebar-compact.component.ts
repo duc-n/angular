@@ -66,6 +66,7 @@ export class HeaderSidebarCompactComponent implements OnInit {
   ngOnInit() {}
 
   toggelSidebar() {
+    console.log('Header-sidebar-compact toggel');
     const state = this.navService.sidebarState;
     state.sidenavOpen = !state.sidenavOpen;
     state.childnavOpen = !state.childnavOpen;

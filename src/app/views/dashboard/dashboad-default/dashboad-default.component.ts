@@ -8,13 +8,13 @@ import { echartStyles } from '../../../shared/echart-styles';
 	styleUrls: ['./dashboad-default.component.css']
 })
 export class DashboadDefaultComponent implements OnInit {
-	chartLineOption1: EChartOption;
+    chartLineOption1: EChartOption;
 	chartLineOption2: EChartOption;
 	chartLineOption3: EChartOption;
     salesChartBar: EChartOption;
     salesChartPie: EChartOption;
 
-	constructor() { }
+    constructor() { }
 
 	ngOnInit() {
 		this.chartLineOption1 = {
@@ -27,7 +27,7 @@ export class DashboadDefaultComponent implements OnInit {
 							show: true
 						}
 					},
-					areaStyle: {
+                    areaStyle: {
 						color: 'rgba(102, 51, 153, .2)',
 						origin: 'start'
 					},

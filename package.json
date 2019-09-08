@@ -22,7 +22,7 @@
     "@angular/platform-browser": "8.0.1",
     "@angular/platform-browser-dynamic": "8.0.1",
     "@angular/router": "8.0.1",
-    "@ng-bootstrap/ng-bootstrap": "4.0.0",
+    "@ng-bootstrap/ng-bootstrap": "5.1.1",
     "@swimlane/ngx-datatable": "^15.0.2",
     "angular-calendar": "0.26.4",
     "angular-in-memory-web-api": "^0.8.0",
